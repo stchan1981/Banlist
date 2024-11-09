@@ -1,0 +1,10 @@
+payload:
+  - '+.一元机场.ink'
+  - '+.xn--4gq62f52gdss.ink'
+  - '+.xn--4gq62f52gdss.com'
+  - '+.xn--4gq62f52gdss.club'
+  - '+.xn--4gq62f52gdss.art'
+  - '+.zh.z-lib.fm'
+  - '+.zh.z-lib.gd'
+  - '+.zh.z-lib.gs'
+  - '+.metacubex.one'
