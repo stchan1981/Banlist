@@ -6,5 +6,6 @@ payload:
   - '+.xn--4gq62f52gdss.art'
   - '+.zh.z-lib.gd'
   - '+.zh.z-lib.gs'
+  - '+.lib.intl.su'
   - '+.metacubex.one'
   - '+.lelian.online'
