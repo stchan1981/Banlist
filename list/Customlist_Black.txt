@@ -1,4 +1,5 @@
 payload:
+  - '+.lelian.online'
   - '+.一元机场.ink'
   - '+.xn--4gq62f52gdss.ink'
   - '+.xn--4gq62f52gdss.com'
