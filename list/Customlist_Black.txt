@@ -8,5 +8,4 @@ payload:
   - '+.zh.z-lib.fm'
   - '+.zh.z-lib.gd'
   - '+.zh.z-lib.gs'
-  - '+.lib.intl.su'
   - '+.metacubex.one'
