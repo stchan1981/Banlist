@@ -11,3 +11,4 @@ payload:
   - '+.metacubex.one'
   - '+.xslist.org'
   - '+.missav.com'
+  - '+.fikfap.com'
