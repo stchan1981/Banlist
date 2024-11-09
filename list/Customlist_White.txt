@@ -1,2 +1,3 @@
 payload:
-  - '+.tool334.lu'
+  - '+.lib.intl.su'
+  - '+.lib.intl.su'
