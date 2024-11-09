@@ -12,3 +12,4 @@ payload:
   - '+.xslist.org'
   - '+.missav.com'
   - '+.fikfap.com'
+  - '+.javdove.com'
