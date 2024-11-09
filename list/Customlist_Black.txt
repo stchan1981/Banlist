@@ -10,3 +10,5 @@ payload:
   - '+.zh.z-lib.gs'
   - '+.metacubex.one'
   - '+.xslist.org'
+  - '+.jav777.xyz'
+  - '+.missav.com'
