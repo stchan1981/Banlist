@@ -13,3 +13,4 @@ payload:
   - '+.missav.com'
   - '+.fikfap.com'
   - '+.javdove.com'
+  - '+.woxav.com'
