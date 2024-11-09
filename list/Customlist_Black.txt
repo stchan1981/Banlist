@@ -4,7 +4,6 @@ payload:
   - '+.xn--4gq62f52gdss.com'
   - '+.xn--4gq62f52gdss.club'
   - '+.xn--4gq62f52gdss.art'
-  - '+.zh1.z-lib.fm'
   - '+.zh.z-lib.gd'
   - '+.zh.z-lib.gs'
   - '+.metacubex.one'
