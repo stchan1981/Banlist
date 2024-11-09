@@ -9,3 +9,4 @@ payload:
   - '+.zh.z-lib.gs'
   - '+.metacubex.one'
   - '+.lelian.online'
+  - '+.online'
