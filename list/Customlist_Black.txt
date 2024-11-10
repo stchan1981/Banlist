@@ -13,3 +13,4 @@ payload:
   - '+.fikfap.com'
   - '+.javdove.com'
   - '+.woxav.com'
+  - '+.njav.tv'
