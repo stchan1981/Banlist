@@ -1,6 +1,6 @@
 payload:
-  - '+.www.spotify.com'
-  - '+.open.spotify.com'
+  - 'www.spotify.com'
+  - 'open.spotify.com'
   - '+.一元机场.ink'
   - '+.xn--4gq62f52gdss.ink'
   - '+.xn--4gq62f52gdss.com'
@@ -19,4 +19,3 @@ payload:
   - '+.ggjav.com'
   - '+.freejavbt.com'
   - '+.fc2id.com'
- - '+.xxxabcdefg.com'
