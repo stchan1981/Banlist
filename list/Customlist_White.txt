@@ -2,3 +2,4 @@ payload:
   - '+.tool.lu'
   - '+.lib.intl.su'
   - '+.jsdelivr.net'
+  - '+.spotify.com'
