@@ -3,3 +3,5 @@ payload:
   - '+.lib.intl.su'
   - '+.jsdelivr.net'
   - '+.spotify.com'
+  - '+.spotifycdn.com'
+  - '+.audio-ak-spotify-com.akamaized.net'
