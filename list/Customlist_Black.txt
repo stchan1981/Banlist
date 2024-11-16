@@ -21,3 +21,4 @@ payload:
   - '+.fc2id.com'
   - '+.notclass.com'
   - '+.mjj.today'
+  - '+.v2rayssr.com'
