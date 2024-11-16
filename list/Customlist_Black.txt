@@ -20,3 +20,4 @@ payload:
   - '+.freejavbt.com'
   - '+.fc2id.com'
   - '+.notclass.com'
+  - '+.mjj.today'
