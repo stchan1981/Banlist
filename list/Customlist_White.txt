@@ -6,3 +6,4 @@ payload:
   - '+.spotifycdn.com'
   - '+.audio-ak-spotify-com.akamaized.net'
   - '+.oracle.com'
+  - '+.asus.com'
