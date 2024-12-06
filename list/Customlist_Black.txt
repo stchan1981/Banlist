@@ -24,3 +24,4 @@ payload:
   - '+.v2rayssr.com'
   - '+.hycmcn.com'
   - '+.vid.puffyan.us'
+  - '+.piped.kavin.rocks'
