@@ -42,7 +42,7 @@ proxies:
     grpc-opts: 
       grpc-service-name: grpcname
 
-  - {name: TW1, server: 220.121.1.211, port: 81, type: vless, uuid: fa511585-g090-4a02-efc3-c66621b92bc4, tls: true, tfo: false, skip-cert-verify: true, servername: vl.care2024.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vl.care2024.us.kg}}}
+  - {name: haha, server: 220.121.1.211, port: 81, type: vless, uuid: fa511585-g090-4a02-efc3-c66621b92bc4, tls: true, tfo: false, skip-cert-verify: true, servername: vl.care2024.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vl.care2024.us.kg}}}
 
 
 proxy-groups:
