@@ -7,3 +7,4 @@ payload:
   - '+.audio-ak-spotify-com.akamaized.net'
   - '+.oracle.com'
   - '+.asus.com'
+  - '+.teams.microsoft.com'
