@@ -1,4 +1,5 @@
 payload:
+  - '+.ipinfo.io'
   - 'www.spotify.com'
   - 'open.spotify.com'
   - '+.一元机场.ink'
