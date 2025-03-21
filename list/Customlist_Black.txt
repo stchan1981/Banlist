@@ -1,6 +1,7 @@
 payload:
   - '+.ipinfo.io'
   - '+.skk.moe'
+  - '+.ip-api.com'
   - 'www.spotify.com'
   - 'open.spotify.com'
   - '+.一元机场.ink'
