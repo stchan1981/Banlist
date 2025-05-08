@@ -8,3 +8,4 @@ payload:
   - '+.oracle.com'
   - '+.asus.com'
   - '+.teams.microsoft.com'
+  - '+.teamviewer.com'
