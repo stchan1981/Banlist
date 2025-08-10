@@ -33,3 +33,4 @@ payload:
   - '+.piped.kavin.rocks'
   - '+.mf5iiran0x8.com'
   - '+.dfg3t534.cc'
+  - 'www.ptsplus.tv'
