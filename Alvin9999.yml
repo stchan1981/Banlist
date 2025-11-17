@@ -1,0 +1,49 @@
+proxies:
+- name: tidal.com
+  type: vless
+  server: 212.129.2.4
+  port: 33550
+  uuid: 3096e584-f1c9-4841-98a2-3a7bb06d0665
+  tls: true
+  network: xhttp
+  servername: tidal.com
+  reality-opts:
+    public-key: GgKubkenTMtjJFyReTev4XoMBHNZVik9YBOiXbfXYCo
+    short-id: ce352eaf7159bdc4
+  ws-opts: null
+- name: VMESS节点2-ipv6
+  type: vmess
+  server: 2001:bc8:1203:209::50
+  port: 23008
+  uuid: e994b804-345c-4e8b-a827-7e005694d146
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /github.com/Alvin9999
+    headers:
+      Host: www.bing.com
+- name: hy2
+  type: hysteria2
+  server: 195.154.206.231
+  port: 33880
+  password: dongtaiwang.com
+  sni: apple.com
+  alpn:
+  - h3
+  skip-cert-verify: false
+proxy-groups:
+- name: Auto
+  type: select
+  proxies:
+  - tidal.com
+  - VMESS节点2-ipv6
+  - hy2
+- name: Proxy
+  type: select
+  proxies:
+  - tidal.com
+  - VMESS节点2-ipv6
+  - hy2
+rules:
+- MATCH,Auto
