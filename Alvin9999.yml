@@ -1,15 +1,15 @@
 proxies:
-- name: tidal.com
+- name: mora.jp
   type: vless
   server: 212.129.2.4
-  port: 33550
-  uuid: 3096e584-f1c9-4841-98a2-3a7bb06d0665
+  port: 33887
+  uuid: 33610372-fefc-456f-a3f2-5d65a48805ab
   tls: true
   network: xhttp
-  servername: tidal.com
+  servername: mora.jp
   reality-opts:
-    public-key: GgKubkenTMtjJFyReTev4XoMBHNZVik9YBOiXbfXYCo
-    short-id: ce352eaf7159bdc4
+    public-key: pk-jNQMhO1bmyp8Ml2lpPj_gHXNVsVzR9TzsraF-bnc
+    short-id: 6f16ae83145d45a5
   ws-opts: null
 - name: hy2
   type: hysteria2
@@ -24,12 +24,12 @@ proxy-groups:
 - name: Auto
   type: select
   proxies:
-  - tidal.com
+  - mora.jp
   - hy2
 - name: Proxy
   type: select
   proxies:
-  - tidal.com
+  - mora.jp
   - hy2
 rules:
 - MATCH,Auto
