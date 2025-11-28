@@ -11,6 +11,18 @@ proxies:
     public-key: pk-jNQMhO1bmyp8Ml2lpPj_gHXNVsVzR9TzsraF-bnc
     short-id: 6f16ae83145d45a5
   ws-opts: null
+- name: VMESS节点2-ipv6
+  type: vmess
+  server: 2001:bc8:32d7:13a::2
+  port: 55009
+  uuid: 093e2946-aa16-492a-a139-4c6038ad3e1c
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /github.com/Alvin9999
+    headers:
+      Host: www.bing.com
 - name: hy2
   type: hysteria2
   server: 62.210.99.49
@@ -25,11 +37,13 @@ proxy-groups:
   type: select
   proxies:
   - mora.jp
+  - VMESS节点2-ipv6
   - hy2
 - name: Proxy
   type: select
   proxies:
   - mora.jp
+  - VMESS节点2-ipv6
   - hy2
 rules:
 - MATCH,Auto
