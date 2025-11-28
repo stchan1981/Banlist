@@ -13,8 +13,8 @@ proxies:
   ws-opts: null
 - name: hy2
   type: hysteria2
-  server: 195.154.206.231
-  port: 33880
+  server: 62.210.99.49
+  port: 22880
   password: dongtaiwang.com
   sni: apple.com
   alpn:
