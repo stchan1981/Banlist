@@ -1,15 +1,15 @@
 proxies:
-- name: mora.jp
+- name: www.sky.com
   type: vless
   server: 212.129.2.4
-  port: 33887
-  uuid: 33610372-fefc-456f-a3f2-5d65a48805ab
+  port: 44550
+  uuid: efbccc49-b2dc-4cb7-984c-b5760161b6de
   tls: true
   network: xhttp
-  servername: mora.jp
+  servername: www.sky.com
   reality-opts:
-    public-key: pk-jNQMhO1bmyp8Ml2lpPj_gHXNVsVzR9TzsraF-bnc
-    short-id: 6f16ae83145d45a5
+    public-key: mjVYzIq4FDWiPFYOwed0GPOfU8tGOM9mypXfzlsVa3g
+    short-id: 6a9c00fcfa96aab1
   ws-opts: null
 - name: VMESS节点2-ipv6
   type: vmess
@@ -36,13 +36,13 @@ proxy-groups:
 - name: Auto
   type: select
   proxies:
-  - mora.jp
+  - www.sky.com
   - VMESS节点2-ipv6
   - hy2
 - name: Proxy
   type: select
   proxies:
-  - mora.jp
+  - www.sky.com
   - VMESS节点2-ipv6
   - hy2
 rules:
