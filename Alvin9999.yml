@@ -1,21 +1,21 @@
 proxies:
-- name: www.sky.com
+- name: mxj.myanimelist.net
   type: vless
-  server: 212.129.2.4
-  port: 44550
-  uuid: efbccc49-b2dc-4cb7-984c-b5760161b6de
+  server: 62.210.8.152
+  port: 18877
+  uuid: 3fb38b37-c636-44d3-ab0c-897fab438bf1
   tls: true
   network: xhttp
-  servername: www.sky.com
+  servername: mxj.myanimelist.net
   reality-opts:
-    public-key: mjVYzIq4FDWiPFYOwed0GPOfU8tGOM9mypXfzlsVa3g
-    short-id: 6a9c00fcfa96aab1
+    public-key: DZj1qrLAm6EJfPkVRPpSCgoQN8sM8Rbio0jpsS1A3FM
+    short-id: 288132e297984d34
   ws-opts: null
 - name: VMESS节点2-ipv6
   type: vmess
-  server: 2001:bc8:32d7:13a::2
-  port: 55009
-  uuid: 093e2946-aa16-492a-a139-4c6038ad3e1c
+  server: 2001:bc8:32d7:2013::8
+  port: 62211
+  uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
   alterId: 0
   cipher: auto
   network: ws
@@ -36,13 +36,13 @@ proxy-groups:
 - name: Auto
   type: select
   proxies:
-  - www.sky.com
+  - mxj.myanimelist.net
   - VMESS节点2-ipv6
   - hy2
 - name: Proxy
   type: select
   proxies:
-  - www.sky.com
+  - mxj.myanimelist.net
   - VMESS节点2-ipv6
   - hy2
 rules:
