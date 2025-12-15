@@ -23,27 +23,16 @@ proxies:
     path: /github.com/Alvin9999
     headers:
       Host: www.bing.com
-- name: hy2
-  type: hysteria2
-  server: 62.210.99.49
-  port: 40088
-  password: dongtaiwang.com
-  sni: apple.com
-  alpn:
-  - h3
-  skip-cert-verify: false
 proxy-groups:
 - name: Auto
   type: select
   proxies:
   - mxj.myanimelist.net
   - VMESS节点2-ipv6
-  - hy2
 - name: Proxy
   type: select
   proxies:
   - mxj.myanimelist.net
   - VMESS节点2-ipv6
-  - hy2
 rules:
 - MATCH,Auto
